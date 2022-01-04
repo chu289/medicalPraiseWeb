@@ -42,8 +42,8 @@ export default {
   },
   watch: {
     data: function() {
-      this.renderDonughtChart().destroy()   // 當資料有做變更時，會去destroy(銷毀)畫布
-      this.renderLineChart()  // destroy後重新render去更新資料
+      this.renderDonughtChart().destroy()
+      this.renderLineChart()
     }
   }
 }
